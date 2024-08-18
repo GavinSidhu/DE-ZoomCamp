@@ -1,9 +1,7 @@
-FROM python:3.9.1
+FROM python:3.9
+#base image we want to use
 
-RUN apt-get install wget
-RUN pip install pandas sqlalchemy psycopg2
+RUN pip install pandas
+# Runs following statement inside container
 
-WORKDIR /app
-COPY ingest_data.py ingest_data.py 
-
-ENTRYPOINT [ "python", "ingest_data.py" ]
+ENTRYPOINT [ "bash" ]
