@@ -28,4 +28,3 @@ resource "google_storage_bucket" "demo-bucket" {
   }
 }
 
-#test comment

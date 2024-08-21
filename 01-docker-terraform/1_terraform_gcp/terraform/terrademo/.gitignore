@@ -39,4 +39,3 @@ terraform.rc
 # Ignore JSON files
 *.json
 
-#terrademo!
